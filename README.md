@@ -94,6 +94,7 @@ data
 * Run ```python case2_train.py```
 
 ### Experiment results
+![image](https://github.com/ChihChia-Li/Case2_COVID-19-Pneumonia-Detection/blob/main/Result/result.jpg)
 
 ### Inference
 To inference the trained model, load the trained model and run ```python case2_test.py```
