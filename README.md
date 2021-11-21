@@ -2,7 +2,7 @@
 ## Digital Medicine 2021 
 
 ### Task Overview
-In this case, we are required to detect COVID-19 pneumonia via chest x-ray images, which contain 400 negative, 400 typical pneumonia and 400 atypical pneumonia. It may be time-consuming and challenging for general radiologists in the community hospitals to read a high volume of chest X-ray images to detect subtle COVID-19 infected pneumonia and distinguish it from other community-acquired non-COVID-19 infected pneumonia. To address this challenge, developing a robust and accurate deep learning classifier model has been important.  
+In this case, we are required to detect COVID-19 pneumonia via chest x-ray images, which contain 400 negative, 400 typical pneumonia and 400 atypical pneumonia. It may be time-consuming and challenging for general radiologists in the community hospitals to read a high volume of chest X-ray images to detect subtle COVID-19 infected pneumonia and distinguish it from other community-acquired non-COVID-19 infected pneumonia. To address this challenge, developing a robust and accurate deep learning classifier model has been important. Thus, our task is to train a classfier that can detect the chest x-ray images with and without pneumonia, and whether the pneumonia is typical or atypical.
 
 ### Basic Requirements
 * Python==3.8
@@ -84,10 +84,10 @@ data
         return out
    ```
 3. Setting hyparameteres and starting training
-  * Cross Entropy Loss
-  * Adam optimizer with 0.001 learning rate
-  * ReduceLROnPlateau learning rate schedular
-  * epochs = 30
+   * Cross Entropy Loss
+   * Adam optimizer with 0.001 learning rate
+   * ReduceLROnPlateau learning rate schedular
+   * epochs = 30
 
 ### Download Pretrained models
 * Download pretrained models from this url: https://drive.google.com/file/d/1Stil1km9MSVUME94ouW7jroNrOMfoqqZ/view?usp=sharing
